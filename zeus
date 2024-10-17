@@ -1,0 +1,174 @@
+Here's your HTML code formatted correctly for a payment receipt:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Receipt</title>
+    <style>
+        body {
+            background-color: #4c1d95;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            width: 100%;
+            max-width: 400px;
+            text-align: center;
+        }
+        .logo img {
+            height: 64px;
+        }
+        .title {
+            font-size: 18px;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+        .status-icon {
+            background-color: #d1fae5;
+            border-radius: 50%;
+            display: inline-block;
+            padding: 10px;
+        }
+        .status-icon i {
+            color: #10b981;
+            font-size: 24px;
+        }
+        .status {
+            font-size: 16px;
+            font-weight: 600;
+            margin: 10px 0;
+        }
+        .amount {
+            font-size: 24px;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+        .actions button {
+            background-color: #f3f4f6;
+            border: none;
+            border-radius: 50%;
+            padding: 10px;
+            margin: 0 5px;
+            cursor: pointer;
+        }
+        .actions button i {
+            color: #6b7280;
+            font-size: 16px;
+        }
+        .details {
+            background-color: #f3f4f6;
+            border-radius: 10px;
+            padding: 15px;
+            text-align: left;
+            margin-top: 20px;
+        }
+        .details h4 {
+            font-size: 16px;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+        .details .item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+        .details .item i {
+            color: #6b7280;
+            margin-right: 10px;
+        }
+        .details .item span {
+            color: #6b7280;
+        }
+        .details .item .value {
+            margin-left: auto;
+        }
+        .footer {
+            color: #9ca3af;
+            margin-top: 20px;
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <img src="https://storage.googleapis.com/a1aa/image/26FV0SlMCXrfDKedcziFpghFQfjq3pDasILKv4wsexwkTMfcC.jpg" alt="Princess Car Rental Logo">
+        </div>
+        <div class="title">PRINCESS CAR RENTAL CAN1</div>
+        <div class="status-icon">
+            <i class="fas fa-check"></i>
+        </div>
+        <div class="status">Payment Successful</div>
+        <div class="amount">110.000 KWD</div>
+        <div class="actions">
+            <button><i class="fas fa-qrcode"></i></button>
+            <button><i class="fas fa-download"></i></button>
+            <button><i class="fas fa-print"></i></button>
+            <button><i class="fas fa-share-alt"></i></button>
+        </div>
+        <div class="details">
+            <h4>Invoice details</h4>
+            <div class="item">
+                <i class="fas fa-calendar-alt"></i>
+                <span>Date of transaction</span>
+                <span class="value">17 Oct 2024 - 9:41 PM</span>
+            </div>
+            <div class="item">
+                <i class="fas fa-file-alt"></i>
+                <span>Invoice No.</span>
+                <span class="value">99422916226</span>
+            </div>
+            <div class="item">
+                <i class="fas fa-credit-card"></i>
+                <span>Payment type</span>
+                <img src="https://storage.googleapis.com/a1aa/image/fUPqeaZJffwCZSHZIW7Gez1JkMQhVe0o56pnEIFHrF7FOx85E.jpg" alt="Payment Type Icon" class="value" style="height: 20px;">
+            </div>
+            <div class="item">
+                <i class="fas fa-user"></i>
+                <span>Customer name</span>
+                <span class="value">سعود عزيز عبدالرزاق الهاجري</span>
+            </div>
+            <div class="item">
+                <i class="fas fa-phone"></i>
+                <span>Phone Number</span>
+                <span class="value">96567770639</span>
+            </div>
+            <div class="item">
+                <i class="fas fa-hashtag"></i>
+                <span>Reference No.</span>
+                <span class="value">99422916226</span>
+            </div>
+            <div class="item">
+                <i class="fas fa-key"></i>
+                <span>Token No.</span>
+                <span class="value">994217291725409585649123</span>
+            </div>
+            <div class="item">
+                <i class="fas fa-lock"></i>
+                <span>Auth Code</span>
+                <span class="value"></span>
+            </div>
+            <div class="item">
+                <i class="fas fa-info-circle"></i>
+                <span>Description</span>
+                <span class="value">حجز رايح لمدة يوم</span>
+            </div>
+        </div>
+        <div class="footer">Powered by</div>
+    </div>
+</body>
+</html>
+```
+
+You can copy and paste this code into an HTML file to view your payment receipt. Let me know if you need any changes or additional features!
